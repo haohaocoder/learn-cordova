@@ -20,5 +20,6 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
+    <icon density="hpdi" src="res\icon\android\iconhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
 </widget>
