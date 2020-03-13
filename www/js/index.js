@@ -41,6 +41,11 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+    window.onload = function(){
+        window.setTimeout(function(){
+            window.location = "main.html"
+        },2000);
+    }
 };
 
 app.initialize();
