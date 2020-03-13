@@ -49,7 +49,7 @@ body {
     padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
-}
+    }
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
@@ -58,7 +58,8 @@ body {
         padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
         margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
-    }
+                                      animation : up 0.8s ease-in;
+                                    }
 }
 
 h1 {
@@ -104,4 +105,14 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+@keyframes up {
+    from{
+        opacity : 0;
+        transform :  translateY(50px);
+    }
+    to{
+        opacity : 1;
+        transform : translateY(0px);
+    }
 }
