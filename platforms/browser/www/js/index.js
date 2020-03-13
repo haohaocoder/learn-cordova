@@ -39,8 +39,14 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+        //console.log('Received Event: ' + id);
+        window.onload = function(){
+            window.setTimeout(function(){
+                window.location = "main.html";
+            }, 2000)
+        }
     }
+
 };
 
 app.initialize();

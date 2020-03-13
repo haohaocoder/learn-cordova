@@ -20,6 +20,11 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        window.onload = function(){
+            window.setTimeout(function(){
+                window.location = "main.html";
+            }, 2000)
+        }
     },
 
     // deviceready Event Handler
@@ -40,11 +45,6 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         //console.log('Received Event: ' + id);
-        window.onload = function(){
-            window.setTimeout(function(){
-                window.location = "main.html";
-            }, 2000)
-        }
     }
 
 };
