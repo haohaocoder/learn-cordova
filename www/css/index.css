@@ -58,8 +58,8 @@ body {
         padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
         margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
-                                      animation : up 0.8s ease-in;
-                                    }
+        
+        }
 }
 
 h1 {
@@ -80,10 +80,10 @@ h1 {
     padding:2px 0px;
 }
 
-.event.listening {
+/* .event.listening {
     background-color:#333333;
     display:block;
-}
+} */
 
 .event.received {
     background-color:#4B946A;
