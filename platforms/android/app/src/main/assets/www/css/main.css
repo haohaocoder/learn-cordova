@@ -31,7 +31,7 @@ main {
 
 img {
     display : block ;
-    margin-top : 2% ;
+    margin-top : 3% ;
     margin-left : auto ;
     margin-right : auto ;
 }
@@ -44,7 +44,7 @@ img {
 .button2 {
     background-color : #54bf64 ;
     border-radius : 20px ;
-    margin-top : 2% ;
+    margin-top : 3% ;
     margin-left : auto ;
     margin-right : auto ; 
     padding : 15px 32px ;
@@ -87,5 +87,6 @@ div.foot-menu {
     display : flex ;
     justify-content : space-around ;
     width : 100% ;
+    padding-top : 8px ;
 }
  
