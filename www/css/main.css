@@ -1,18 +1,21 @@
+
 html, body {
-    margin : 0 ;
-    padding : 0 ;
     height : 100% ;
     width : 100% ;
+    margin-left : 0 ;
+    margin-right : 0 ;
+}
+.header-content {
+    height : 10% ;
 }
 .menubar{
     background-color : #54bf64;
     text-align : center;
-    /* height : 10% ; */
     font-family : georgia ;
     font-size : 14px ;
     font-weight :  bold ;
     width : 100% ;
-    padding-top : 5px ;
+    padding-top : 15px ;
 }
 
 .button1 {
@@ -24,14 +27,16 @@ html, body {
     margin-top : 10px ;
 }
 
-main {
-    width : 100% ;
-    /* height : 75% ; */
+.main-content {
+    display : flex ;
+    flex-direction : column ;
+    align-content : space-around ;
+    height : 80% ;
+    overflow : none ;
 }
 
 img {
     display : block ;
-    margin-top : 3% ;
     margin-left : auto ;
     margin-right : auto ;
 }
@@ -40,13 +45,12 @@ img {
      text-align : center ; 
      font-family : verdana ;
      font-size : 18px ;
+     padding : 10px ;
  }
 .button2 {
     background-color : #54bf64 ;
     border-radius : 20px ;
-    margin-top : 3% ;
-    margin-left : auto ;
-    margin-right : auto ; 
+    margin: 10px auto auto auto;
     padding : 15px 32px ;
     text-align : center ;
     text-decoration : none ;
@@ -55,7 +59,7 @@ img {
     font-weight : bold ;
   }
 
-div.list-doing {
+.list-doing {
       display : block ; 
       text-align : left ; 
       list-style-position : inside ; 
@@ -63,15 +67,17 @@ div.list-doing {
       margin-top : 20px ;
     } 
 
-div.list-doing ol {
+.list-doing ol {
     padding : 5px ;
     text-align : center ;
+}
+.footer-content {
+    height : 10% ; 
 }
 
 .footicon {
     background-color : #dfdfdf;
     width : 100% ;
-    /* height : 15% ; */
     text-align : center ;
 }
 
@@ -83,10 +89,10 @@ div.list-doing ol {
     padding : 15px ; 
 }
 
-div.foot-menu {
+.foot-menu {
     display : flex ;
     justify-content : space-around ;
     width : 100% ;
-    padding-top : 8px ;
+    padding-top : 5px ;
 }
  
