@@ -1,13 +1,95 @@
-* {
-    font-size : 14px;
-    font-family : sans-serif;
-}
 
+html,
+body {
+    display : flex ;
+    flex-direction : column ;
+    height : 100% ;
+    width : 100% ;
+    margin : 0 0 0 0 ;
+    font-size : 14px ; 
+}
+.header-content {
+    height : 10% ;
+}
 .menubar{
     background-color : #54bf64;
     text-align : center;
+    font-family : georgia ;
+    font-weight :  bold ;
+    width : 100% ;
+    padding-top : 15px ;
 }
 
-.footicon{
-    background-color : #54bf64;
+.button1 {
+    background-color : white ;
+    border : none ;
+    border-radius : 15px 15px 0px 0px ; 
+    padding : 15px ;
+    width : 100% ;
+    margin-top : 4px ;
+}
+
+.main-content {
+    display : flex ;
+    flex-direction : column ;
+    align-items : center ;
+    height : 80% ;
+    overflow : none ;
+}
+
+img {
+    display : block ;
+    margin-top : 5px 0 0 0 ;
+}
+
+.mcontent h1, h3 {
+     text-align : center ; 
+     font-family : verdana ;
+     font-size : 16px ;
+ }
+.button2 {
+    background-color : #54bf64 ;
+    border-radius : 20px ;
+    margin: 20px 0 0 0 ;
+    padding : 15px 32px ;
+    text-align : center ;
+    text-decoration : none ;
+    display : block ;
+    font-weight : bold ;
+  }
+
+.list-doing {
+      display : block ; 
+      text-align : left ; 
+      list-style-position : inside ;
+    } 
+
+.list-doing ol {
+    text-align : center ;
+}
+
+.footer-content {
+    height : 10% ; 
+}
+
+.footicon {
+    background-color : #dfdfdf;
+    width : 100% ;
+    text-align : center ;
+}
+
+.button3 {
+    background-color : white ;
+    border : none ;
+    border-radius : 0 0 20px 20px ;
+    width : 100% ;
+    padding : 15px ; 
+    margin-bottom : 7px ;
+}
+
+.foot-menu {
+    display : flex ;
+    justify-content : space-around ;
+    width : 100% ;
+    align-self : center ;
 }
