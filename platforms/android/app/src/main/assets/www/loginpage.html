@@ -2,14 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/loginpage.css">
     <title>Trang đăng nhập</title>
 </head>
 <body>
-    <div>
-        
+    <div class="head-content">
+        <header class="header-content">
+            <div id="button-group">
+                <div id="button1">1</div>
+                <div id="button2"></div>
+                <div id="button3">2</div>
+                <div id="button4"></div>
+                <div id="button5">3</div>
+            </div>
+            <div id="button-text">
+                    <i>Đăng nhập</i>
+                    <i>Đặt lịch</i>
+                    <i>Chốt lịch</i>
+            </div>
+        </header>
     </div>
-    <div></div>
-    <div></div>
+    <div class="main-content">
+        <div>
+            <img src="img/logo.png" alt="logocuahang" width="96px" height="96px">
+        </div>
+        <div>
+            <b>HIỀN NGUYỄN BEAUTY SALON</b>
+        </div>
+        <form class="login-form">
+        <div id="numlogin">
+            <div id="numimg">
+                <img src="img/phonenum.png" alt="uphone" width="24px" height="24px">
+            </div>
+            <div>
+                <div>
+                    <label for="fusernum">Nhập số điện thoại</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="điện thoại 090*******" name="unum" required >
+                </div>
+            </div>
+        </div>
+        <div id="passlogin">
+                <div id="passimg">
+                    <img src="img/pass.png" alt="upass" width="24px" height="24px">
+                </div>
+                <div>
+                    <div>
+                        <label for="fuserpass">Nhập mật khẩu</label>
+                    </div>
+                    <div>
+                        <input type="password" placeholder=" mật khẩu ********" name="upass" required >
+                    </div>
+                </div>
+        </div>
+        <input type="button" value=" Đăng nhập ngây">
+        </form>
+    </div>
+    <div class="foot-content">
+        <br>
+        <b>Địa chỉ cửa hàng :</b><br>
+        <b>60 / 15 Tuệ Tĩnh, Phường 13, Quận 11, Tphcm</b>
+    </div>
 </body>
 </html>
