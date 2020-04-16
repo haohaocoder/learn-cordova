@@ -12,8 +12,8 @@ body {
     flex-direction : column ;
     background-color : #54bf64 ;
     color : black ;
-    height : 8% ;
     padding-top : 5px ;
+    width : 100% ;
 }
 
 .header-content {
@@ -50,13 +50,15 @@ body {
 }
 
 .button6 {
+    box-sizing : border-box ;
     border : none ;
     background-color : white ;
-    padding : 15px;
     border-radius : 15px 15px 0 0 ;
+    padding : 10px 0 ;
     margin-top: 5px ;
+    height : 30px ;
     width : 100% ;
-    cursor : not-allowed
+    text-align : center ;
 }
 #button-text {
     display : flex ;
@@ -66,8 +68,9 @@ body {
 }
 
 .main-content {
-    height : 84% ;
-    padding-top : 20px 
+    padding-top : 20px ;
+    font-size : 14px ;
+    width : 100% ;
 }
 
 .button-group1 {
@@ -89,19 +92,20 @@ body {
 
 .schedule {
     display : grid ;
-    grid : auto / auto auto auto auto ;
+    grid-template-columns : 25% 25% 25% 25% ;
     box-sizing : border-box ;
     border : 1px solid #45bf64 ;
+    width : 100% ;
 }
 
 .schedule-label {
     box-sizing : border-box ;
     border : 1px solid #54bf64 ;
-    border-radius : 15px ;
-    width : 100px ;
-    margin-top : 4px ;
-    margin-bottom : 4px ;
-    text-align : center ;
+    border-radius : 5px ;
+    margin : 5px 3px ;
+    text-align : left ;
+    font-size : 12px ;
+    padding : 3px ;
 }
 .main-foot {
     display : flex ;
@@ -123,10 +127,13 @@ body {
 }
 
 #button8 {
+    box-sizing : border-box ;
     border : none ;
     background-color : #45bf64 ;
     width : 60px ;
     height : 3px ;
+    margin-left : 10px ;
+    margin-top : 3px ;
 }
 
 .foot-content {
@@ -137,19 +144,17 @@ body {
     background-color : #54bf64 ;
     color : black ;
     font-size : 16px ;
+    width : 100% ;
+    position : absolute ;
+    bottom : 0 ;
 }
 
 .button7 {
+    box-sizing : border-box ;
     border : none ;
     width : 100% ;
     background-color : white ;
     border-radius : 0 0 15px 15px;
-    padding : 15px ; 
-    cursor : not-allowed ;
-}
-
-.footer-content {
-    padding-top : 4px ;
-    padding-bottom : 4px ;
+    height : 25px ;
 }
 
