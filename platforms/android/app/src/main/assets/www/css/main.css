@@ -8,9 +8,7 @@ body {
     margin : 0 0 0 0 ;
     font-size : 14px ; 
 }
-.header-content {
-    height : 10% ;
-}
+
 .menubar{
     background-color : #54bf64;
     text-align : center;
@@ -21,27 +19,25 @@ body {
 }
 
 .button1 {
+    box-sizing : border-box ;
     background-color : white ;
     border : none ;
     border-radius : 15px 15px 0px 0px ; 
-    padding : 15px ;
     width : 100% ;
+    height : 25px ;
     margin-top : 4px ;
-    cursor : not-allowed ;
 }
 
 .main-content {
     display : flex ;
     flex-direction : column ;
     align-items : center ;
-    height : 80% ;
-    overflow : none ;
-    padding : 20px ;
+    padding : 10px ;
 }
 
 img {
     display : block ;
-    padding-top : 20px ;
+    padding-top : 5px ;
 }
 
 .mcontent h1, h3 {
@@ -78,15 +74,17 @@ img {
     flex-direction : column ;
     background-color : #dfdfdf;
     width : 100% ;
+    position : absolute ;
+    bottom : 0 ;
 }
 
 .button3 {
-    background-color : white ;
+    box-sizing : border-box ;
     border : none ;
     border-radius : 0 0 20px 20px ;
     width : 100% ;
-    padding : 15px ; 
-    cursor : not-allowed ;
+    height : 25px ;
+    background-color : white ;
 }
 
 .foot-menu {
