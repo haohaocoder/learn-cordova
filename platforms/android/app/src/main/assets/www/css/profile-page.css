@@ -102,6 +102,7 @@ body {
     vertical-align : baseline ;
     margin-top : 12px ;
 }
+
 .foot {
     display : flex ;
     flex-direction : column ;
@@ -119,6 +120,7 @@ body {
     height : 50px ;
     background-color : white ;
 }
+
 .foot-icon {
     display : flex ;
     justify-content : space-around ;

@@ -40,6 +40,11 @@ body {
     cursor : not-allowed ;
 }
 
+.button1 {
+    background-color : black ;
+    color : white ;
+}
+
 .button2,
 .button4 {
     border : none ;
@@ -60,6 +65,7 @@ body {
     width : 100% ;
     text-align : center ;
 }
+
 #button-text {
     display : flex ;
     justify-content : space-between ;
@@ -98,6 +104,10 @@ body {
     width : 100% ;
 }
 
+#borderlink {
+    text-decoration : none ;
+}
+
 .schedule-label {
     box-sizing : border-box ;
     border : 1px solid #54bf64 ;
@@ -105,8 +115,9 @@ body {
     margin : 5px 3px ;
     text-align : left ;
     font-size : 12px ;
-    padding : 3px ;
+    padding : 3px ;10
 }
+
 .main-foot {
     display : flex ;
     flex-direction : column ;
@@ -114,6 +125,7 @@ body {
     align-items : center ;
     text-align : left ;
     text-decoration : none ;
+    margin-top : 10px ;
 }
 
 #button9 {
@@ -144,6 +156,7 @@ body {
     background-color : #54bf64 ;
     color : black ;
     font-size : 16px ;
+    padding-bottom : 5px ;
     width : 100% ;
     position : absolute ;
     bottom : 0 ;
@@ -156,5 +169,10 @@ body {
     background-color : white ;
     border-radius : 0 0 15px 15px;
     height : 25px ;
+    margin-bottom : 10px ;
 }
 
+ol li{
+    padding-top : 5px ;
+    font-size : 14px ;
+}

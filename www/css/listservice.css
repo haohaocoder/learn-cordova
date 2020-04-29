@@ -36,6 +36,29 @@ body {
     height : 30px ;
     margin-top : 5px ;
 }
+
+.list-sv {
+    display : flex ;
+    flex-direction : column ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.list-sv ol li{
+    padding-top : 5px ;
+    font-size : 20px ;
+}
+
+input[type="submit"] {
+    font-size : 18px ;
+    font-weight : bold ;
+    color : white ;
+    padding : 10px 20px 11px !important ;
+    background-color: #245e24 ;
+    border-radius : 15px ;
+    text-shadow : 1px 1px #dfdfdf ;
+}
+
 .footer-content {
     position : absolute ;
     bottom : 0 ;
