@@ -1,8 +1,8 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "hnschedule",
-  "short_name": "hnschedule",
+  "name": "HN Beauty",
+  "short_name": "HN Beauty",
   "version": "com.example.learncordova",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "author": "Apache Cordova Team",

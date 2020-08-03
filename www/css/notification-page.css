@@ -48,7 +48,7 @@ body {
     flex-direction : column ;
     background-color : #dfdfdf ;
     width : 100% ;
-    position : absolute ;
+    position : fixed ;
     bottom : 0 ;
 }
 
